@@ -31,8 +31,8 @@ The dataset Superstore Sales Data.csv contains transactional sales data with det
   
 ## 📝Methodology 
 
-## 🛠️Step-by-Step Implementation :
-## 1️⃣Database & Table Creation 🗄️ : 
+### 🛠️Step-by-Step Implementation :
+### 1️⃣Database & Table Creation 🗄️ : 
 The MySQL database is named superstore_sales, and a table sales_datas is created with the following schema:
 
 ✔  `Primary Key`: Row_ID
@@ -43,31 +43,31 @@ The MySQL database is named superstore_sales, and a table sales_datas is created
 
 🔹` Enhancements`: We added primary keys, NOT NULL constraints, and data validation checks to ensure data integrity.
 
-## 2️⃣Data Insertion➕ : 
+### 2️⃣Data Insertion➕ : 
 
 - To handle large datasets, we use bulk insertion with LOAD DATA INFILE, which is faster than multiple INSERT statements.
 - Successful data insertion ensured that all relevant transactional records were captured, forming a solid foundation for analysis and reporting.
 
 ✔ `Used Method`: Used RebaseData (Convert XLS to MySQL) for data insertion.
 
-## 3️⃣Data Cleaning & Schema Update🧹 : 
+### 3️⃣Data Cleaning & Schema Update🧹 : 
 
 ✔Ensured date columns (Order_Date, Ship_Date) were converted to the proper DATE format.
 
-## 4️⃣Exploratory Data Analysis (EDA) 🔍 :
+### 4️⃣Exploratory Data Analysis (EDA) 🔍 :
 
 ✔ EDA helps us uncover insights into sales trends, customer behavior, and profitability
 
-## Key Insights
+### Key Insights
 
-###  `Sales and Profit`:
+####  `Sales and Profit`:
 
 - Total Sales: Summed up for the entire dataset.
 - Total Profit: Computed for profitability analysis.
 - Average Discount: Derived to understand pricing strategies.
-###  `Regional Performance`:
+####  `Regional Performance`:
 - Most profitable regions were identified using a grouped query on Region.
-###  `Top Products`:
+####  `Top Products`:
 
 - Ranked by sales using grouped queries on Product_Name.
   
@@ -83,11 +83,11 @@ The MySQL database is named superstore_sales, and a table sales_datas is created
 
 ✔ `Objective`: Categorize customers based on Recency, Frequency, and Monetary Value to improve marketing strategies
 
-### Methodology
+#### Methodology
 - `Recency`: Days since the last order.
 - `Frequency`: Number of orders by each customer.
 -` Monetar`y: Total sales value for each customer.
-### Steps
+#### Steps
 - Calculated Recency, Frequency, and Monetary metrics for each customer.
 - Created segments based on the metrics:
    - `Recency`: Active, Lapsing, Inactive.
