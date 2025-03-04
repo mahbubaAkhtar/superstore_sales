@@ -22,12 +22,13 @@ The dataset Superstore Sales Data.csv contains transactional sales data with det
 - `Product Information`: Product ID, Category, Sub-category, Product Name
 - `Financial Metrics`: Sales, Quantity, Discount, Profit
 
-
-
 ## 📁Files
-- `File`:The file name is `Superstore Sales Data.csv` The name of the file containing the dataset used for analysis.
-- `Create Database`: CREATE DATABASE IF NOT EXISTS superstore_sales;
-- `Create Table` : CREATE TABLE IF NOT EXISTS sales_data;
+### 📁 File Name: Superstore_Sales
+- `Create_Superstore_Sales_Database&_Sales_data_Table.sql`
+-  `Data_Cleaning_And_Update.sql`
+-  `Exploratory_Data_Analysis_(EDA).sql`
+-  `Customer_Segmentation_(RFM Analysis).sql`
+-  `Superstore Sales Data.csv`
   
 ## 📝Methodology 
 
